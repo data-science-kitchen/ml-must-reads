@@ -2,6 +2,15 @@
 
 Dieses Repository enthält eine Sammlung der wichtigsten und einflussreichsten Paper im Bereich des Machine Learnings, sortiert nach verschiedenen Kategorien.
 
+## Learning Path
+
+Dieser Abschnitt enthält eine kuratierte Sammlung von Lernpfaden zu verschiedenen wichtigen Themen im Bereich des Machine Learnings. Jeder Lernpfad führt dich durch die Grundlagen, fortgeschrittene Konzepte und aktuelle Entwicklungen eines spezifischen Themas.
+
+### 1. Transformers
+
+- [Transformers Learning Path](./transformers.md)
+- ...
+
 ## Kategorien
 
 ### 1. Computer Vision (CV)
@@ -23,7 +32,6 @@ Dieses Repository enthält eine Sammlung der wichtigsten und einflussreichsten P
 | [BERT](https://arxiv.org/abs/1810.04805) | 2018 | BERT (Bidirectional Encoder Representations from Transformers) ist ein vortrainiertes Sprachmodell, das bidirektionale Kontexte in Texten versteht. Es setzte neue Maßstäbe in zahlreichen NLP-Aufgaben durch seine Fähigkeit, tiefere Sprachrepräsentationen zu erfassen. |
 | [ELMo](https://arxiv.org/abs/1802.05365) | 2018 | ELMo (Embeddings from Language Models) erzeugt kontextualisierte Wortrepräsentationen, indem es tiefe bidirektionale Sprachmodelle verwendet. Es verbessert die Leistung in verschiedenen NLP-Aufgaben, indem es den Kontext von Wörtern in einem Satz berücksichtigt. |
 | [GPT-3](https://arxiv.org/abs/2005.14165) | 2020 | GPT-3 (Generative Pre-trained Transformer 3) ist ein großes Sprachmodell, das in der Lage ist, menschenähnlichen Text zu generieren und wenige Beispiele zu verwenden, um neue Aufgaben zu lernen. Es beeindruckt durch seine Vielseitigkeit und Qualität der generierten Texte. |
-
 
 ### 3. Reinforcement Learning (RL)
 
