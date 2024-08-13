@@ -15,8 +15,6 @@ This learning path offers a structured introduction to the world of Transformers
 
 ### Fundamentals
 
-### Fundamentals
-
 | Step | Title | Type | Description |
 |------|-------|------|-------------|
 | 1    | [Transformers from Scratch](http://peterbloem.nl/blog/transformers) | Article | This tutorial explains the basic concepts and math behind Transformers in a clear and straightforward way, making it accessible for beginners who want to understand the fundamentals. There is also a source on [Github](https://github.com/pbloem/former) to play with. |
