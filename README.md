@@ -1,74 +1,80 @@
-# Wichtige Machine Learning Paper
+# Important Machine Learning Papers
 
-Dieses Repository enthält eine Sammlung der wichtigsten und einflussreichsten Paper im Bereich des Machine Learnings, sortiert nach verschiedenen Kategorien.
+This repository contains a collection of the most important and influential papers in the field of machine learning, sorted by various categories.
 
-## Kategorien
+## Learning Path
+
+This section contains a curated collection of learning paths on various important topics in the field of machine learning. Each learning path guides you through the basics, advanced concepts, and current developments of a specific topic.
+
+### 1. Transformers
+
+- [Transformers Learning Path](./transformers.md)
+- ...
+
+## Categories
 
 ### 1. Computer Vision (CV)
 
-| Paper | Jahr | Beschreibung |
+| Paper | Year | Description |
 |-------|------|--------------|
-| [AlexNet](https://arxiv.org/abs/1803.01164) | 2012 | AlexNet war das erste große Convolutional Neural Network, das die ImageNet-Bildklassifizierungsaufgabe mit erheblichem Abstand gewann. Es zeigte, dass tiefe neuronale Netzwerke mit vielen Schichten effektiv große Bilddatensätze verarbeiten können. |
-| [VGGNet](https://arxiv.org/abs/1409.1556) | 2014 | VGGNet führte tiefere Netzwerke mit sehr kleinen (3x3) Faltungen ein, was zu einer signifikanten Verbesserung der Bildklassifikationsleistung führte. Es zeigte, dass die Netzwerkarchitektur, insbesondere die Tiefe, entscheidend für die Leistung ist. |
-| [ResNet](https://arxiv.org/abs/1512.03385) | 2015 | ResNet (Residual Networks) löste das Problem der abnehmenden Genauigkeit in sehr tiefen Netzwerken durch die Einführung von Residualverbindungen, die das Training tiefer Netzwerke erleichtern und deren Leistung verbessern. |
-| [Faster R-CNN](https://arxiv.org/abs/1506.01497) | 2015 | Faster R-CNN ist ein Framework für Objekterkennung, das Region Proposal Networks (RPNs) einführt, um regionsbasierte Erkennung erheblich zu beschleunigen und Echtzeit-Objekterkennung zu ermöglichen. |
-
+| [AlexNet](https://arxiv.org/abs/1803.01164) | 2012 | AlexNet was the first major convolutional neural network that won the ImageNet image classification task by a significant margin. It demonstrated that deep neural networks with many layers can effectively process large image datasets. |
+| [VGGNet](https://arxiv.org/abs/1409.1556) | 2014 | VGGNet introduced deeper networks with very small (3x3) convolutions, leading to a significant improvement in image classification performance. It showed that network architecture, especially depth, is crucial for performance. |
+| [ResNet](https://arxiv.org/abs/1512.03385) | 2015 | ResNet (Residual Networks) addressed the problem of diminishing accuracy in very deep networks by introducing residual connections, making it easier to train deep networks and improving their performance. |
+| [Faster R-CNN](https://arxiv.org/abs/1506.01497) | 2015 | Faster R-CNN is a framework for object detection that introduced Region Proposal Networks (RPNs) to significantly speed up region-based detection and enable real-time object detection. |
 
 ### 2. Natural Language Processing (NLP)
 
-| Paper | Jahr | Beschreibung |
+| Paper | Year | Description |
 |-------|------|--------------|
-| [Word2Vec](https://arxiv.org/abs/1301.3781) | 2013 | Word2Vec ist ein Modell, das effiziente Berechnungen von Wortrepräsentationen im Vektorraum ermöglicht. Es nutzt eine Technik, bei der Wörter mit ähnlicher Bedeutung ähnliche Vektorrepräsentationen erhalten, was viele NLP-Aufgaben erleichtert. |
-| [Attention is All You Need](https://arxiv.org/abs/1706.03762) | 2017 | Dieses Paper führte das Transformer-Modell ein, das ausschließlich auf Aufmerksamkeit (Attention) basiert und ohne rekurrente oder konvolutionale Schichten auskommt. Es revolutionierte die NLP-Landschaft durch signifikante Verbesserungen bei Übersetzungs- und anderen Sequenz-zu-Sequenz-Aufgaben. |
-| [BERT](https://arxiv.org/abs/1810.04805) | 2018 | BERT (Bidirectional Encoder Representations from Transformers) ist ein vortrainiertes Sprachmodell, das bidirektionale Kontexte in Texten versteht. Es setzte neue Maßstäbe in zahlreichen NLP-Aufgaben durch seine Fähigkeit, tiefere Sprachrepräsentationen zu erfassen. |
-| [ELMo](https://arxiv.org/abs/1802.05365) | 2018 | ELMo (Embeddings from Language Models) erzeugt kontextualisierte Wortrepräsentationen, indem es tiefe bidirektionale Sprachmodelle verwendet. Es verbessert die Leistung in verschiedenen NLP-Aufgaben, indem es den Kontext von Wörtern in einem Satz berücksichtigt. |
-| [GPT-3](https://arxiv.org/abs/2005.14165) | 2020 | GPT-3 (Generative Pre-trained Transformer 3) ist ein großes Sprachmodell, das in der Lage ist, menschenähnlichen Text zu generieren und wenige Beispiele zu verwenden, um neue Aufgaben zu lernen. Es beeindruckt durch seine Vielseitigkeit und Qualität der generierten Texte. |
-
+| [Word2Vec](https://arxiv.org/abs/1301.3781) | 2013 | Word2Vec is a model that enables efficient computation of word representations in vector space. It uses a technique where words with similar meanings receive similar vector representations, facilitating many NLP tasks. |
+| [Attention is All You Need](https://arxiv.org/abs/1706.03762) | 2017 | This paper introduced the Transformer model, which is based entirely on attention mechanisms and does not rely on recurrent or convolutional layers. It revolutionized the NLP landscape by significantly improving translation and other sequence-to-sequence tasks. |
+| [BERT](https://arxiv.org/abs/1810.04805) | 2018 | BERT (Bidirectional Encoder Representations from Transformers) is a pre-trained language model that understands bidirectional contexts in texts. It set new benchmarks in numerous NLP tasks by capturing deeper language representations. |
+| [ELMo](https://arxiv.org/abs/1802.05365) | 2018 | ELMo (Embeddings from Language Models) generates contextualized word representations by using deep bidirectional language models. It improves performance in various NLP tasks by considering the context of words within a sentence. |
+| [GPT-3](https://arxiv.org/abs/2005.14165) | 2020 | GPT-3 (Generative Pre-trained Transformer 3) is a large language model capable of generating human-like text and learning new tasks with few examples. It impresses with its versatility and the quality of the generated texts. |
 
 ### 3. Reinforcement Learning (RL)
 
-| Paper | Jahr | Beschreibung |
+| Paper | Year | Description |
 |-------|------|--------------|
-| [DQN](https://arxiv.org/abs/1312.5602) | 2015 | Das Deep Q-Network (DQN) führte tiefes Reinforcement Learning ein, das menschliches Niveau in der Steuerung von Videospielen erreichte. Es kombiniert Q-Learning mit tiefen neuronalen Netzwerken, um direkt aus Rohpixeln zu lernen. |
-| [A3C](https://arxiv.org/abs/1602.01783) | 2016 | Asynchronous Advantage Actor-Critic (A3C) ist ein Framework für tiefes Reinforcement Learning, das asynchrone Methoden nutzt, um mehrere Kopien des Agenten parallel zu trainieren. Dies führt zu stabileren und schnelleren Trainingsprozessen. |
-| [AlphaGo](https://arxiv.org/abs/1712.01815) | 2016 | AlphaGo ist bekannt für seinen Sieg gegen menschliche Go-Meister. Es kombiniert tiefes neuronales Lernen mit Monte-Carlo-Baumsuche und trainierte auf einer großen Menge an Go-Partien, um strategisches Spielverständnis zu entwickeln. |
-| [DDPG](https://arxiv.org/abs/1509.02971) | 2016 | Deep Deterministic Policy Gradient (DDPG) ist ein Algorithmus für kontinuierliche Steuerungsaufgaben im Reinforcement Learning. Es kombiniert DQN mit einem Actor-Critic-Ansatz und ermöglicht das Lernen in hochdimensionalen Aktionsräumen. |
-| [PPO](https://arxiv.org/abs/1707.06347) | 2017 | Proximal Policy Optimization (PPO) ist ein moderner Algorithmus im Bereich des Reinforcement Learnings, der eine stabile und effiziente Aktualisierung der Politik bietet und oft als Standardmethode verwendet wird. |
+| [DQN](https://arxiv.org/abs/1312.5602) | 2015 | The Deep Q-Network (DQN) introduced deep reinforcement learning that reached human-level performance in playing video games. It combines Q-learning with deep neural networks to learn directly from raw pixels. |
+| [A3C](https://arxiv.org/abs/1602.01783) | 2016 | Asynchronous Advantage Actor-Critic (A3C) is a framework for deep reinforcement learning that uses asynchronous methods to train multiple copies of the agent in parallel. This leads to more stable and faster training processes. |
+| [AlphaGo](https://arxiv.org/abs/1712.01815) | 2016 | AlphaGo is known for its victory against human Go champions. It combines deep neural learning with Monte Carlo tree search and was trained on a large number of Go games to develop strategic game understanding. |
+| [DDPG](https://arxiv.org/abs/1509.02971) | 2016 | Deep Deterministic Policy Gradient (DDPG) is an algorithm for continuous control tasks in reinforcement learning. It combines DQN with an actor-critic approach, enabling learning in high-dimensional action spaces. |
+| [PPO](https://arxiv.org/abs/1707.06347) | 2017 | Proximal Policy Optimization (PPO) is a modern algorithm in the field of reinforcement learning that provides stable and efficient policy updates and is often used as a standard method. |
 
+### 4. Generative Models
 
-### 4. Generative Modelle
-
-| Paper | Jahr | Beschreibung |
+| Paper | Year | Description |
 |-------|------|--------------|
-| [GANs](https://arxiv.org/abs/1406.2661) | 2014 | Generative Adversarial Networks (GANs) bestehen aus zwei neuronalen Netzwerken, einem Generator und einem Diskriminator, die gegeneinander trainiert werden. GANs haben die Fähigkeit, realistisch aussehende Daten zu generieren, erheblich verbessert. |
-| [VAEs](https://arxiv.org/abs/1312.6114) | 2013 | Variational Autoencoders (VAEs) sind eine Klasse von generativen Modellen, die auf der Wahrscheinlichkeitsdichte-Schätzung basieren. Sie ermöglichen es, neue Datenpunkte zu generieren, die denen im Trainingsdatensatz ähnlich sind, und sind besonders nützlich für die Bild- und Textgenerierung. |
-| [PixelRNN](https://arxiv.org/abs/1601.06759) | 2016 | Pixel Recurrent Neural Networks (PixelRNN) sind generative Modelle, die Pixel für Pixel Bilder erzeugen. Sie nutzen rekurrente neuronale Netzwerke, um die Abhängigkeiten zwischen den Pixeln in einem Bild zu modellieren und ermöglichen so die Generierung hochauflösender Bilder. |
-
+| [GANs](https://arxiv.org/abs/1406.2661) | 2014 | Generative Adversarial Networks (GANs) consist of two neural networks, a generator and a discriminator, which are trained against each other. GANs have significantly improved the ability to generate realistic-looking data. |
+| [VAEs](https://arxiv.org/abs/1312.6114) | 2013 | Variational Autoencoders (VAEs) are a class of generative models based on probabilistic density estimation. They allow for the generation of new data points that are similar to those in the training dataset and are particularly useful for image and text generation. |
+| [PixelRNN](https://arxiv.org/abs/1601.06759) | 2016 | Pixel Recurrent Neural Networks (PixelRNN) are generative models that generate images pixel by pixel. They use recurrent neural networks to model the dependencies between pixels in an image, enabling the generation of high-resolution images. |
 
 ### 5. Graph Neural Networks (GNNs)
 
-| Paper | Jahr | Beschreibung |
+| Paper | Year | Description |
 |-------|------|--------------|
-| [GCN](https://arxiv.org/abs/1609.02907) | 2016 | Graph Convolutional Networks (GCNs) sind eine Methode zur semi-supervisierten Klassifikation von Knoten in Graphen. Sie erweitern konvolutionale neuronale Netzwerke auf Graphdaten und ermöglichen so die effiziente Verarbeitung und Analyse von Netzwerken und relationalen Daten. |
-| [GraphSAGE](https://arxiv.org/abs/1706.02216) | 2017 | GraphSAGE (Graph Sample and AggregatE) ist eine Methode für induktives Lernen auf großen Graphen. Sie verwendet sampling und aggregating Techniken, um repräsentative Knotenfeatures zu lernen, die für die Vorhersage neuer Knoten verwendet werden können, ohne den gesamten Graphen erneut trainieren zu müssen. |
+| [GCN](https://arxiv.org/abs/1609.02907) | 2016 | Graph Convolutional Networks (GCNs) are a method for semi-supervised classification of nodes in graphs. They extend convolutional neural networks to graph data, enabling efficient processing and analysis of networks and relational data. |
+| [GraphSAGE](https://arxiv.org/abs/1706.02216) | 2017 | GraphSAGE (Graph Sample and AggregatE) is a method for inductive learning on large graphs. It uses sampling and aggregation techniques to learn representative node features that can be used to predict new nodes without having to retrain on the entire graph. |
 
 ### 6. Fairness, Accountability, and Transparency in AI (FAccT)
 
-| Paper | Jahr | Beschreibung |
+| Paper | Year | Description |
 |-------|------|--------------|
-| [The Mythos of Model Interpretability](https://arxiv.org/abs/1606.03490) | 2016 | Dieses Paper diskutiert die Missverständnisse und Herausforderungen rund um die Interpretierbarkeit von Modellen. Es bietet eine kritische Analyse dessen, was es bedeutet, ein Modell interpretierbar zu machen, und welche Ansätze dazu beitragen können. |
-| [Fairness and Abstraction in Sociotechnical Systems](https://www.researchgate.net/publication/330264946_Fairness_and_Abstraction_in_Sociotechnical_Systems) | 2017 | Dieses Paper untersucht die Konzepte von Fairness und Abstraktion in soziotechnischen Systemen. Es betont die Bedeutung der Berücksichtigung sozialer und technischer Faktoren bei der Gestaltung fairer und transparenter Algorithmen. |
+| [The Mythos of Model Interpretability](https://arxiv.org/abs/1606.03490) | 2016 | This paper discusses the misconceptions and challenges surrounding model interpretability. It provides a critical analysis of what it means to make a model interpretable and which approaches can contribute to this goal. |
+| [Fairness and Abstraction in Sociotechnical Systems](https://www.researchgate.net/publication/330264946_Fairness_and_Abstraction_in_Sociotechnical_Systems) | 2017 | This paper explores the concepts of fairness and abstraction in sociotechnical systems. It emphasizes the importance of considering social and technical factors in designing fair and transparent algorithms. |
 
 ### 7. Bayesian Optimization
 
-| Paper | Jahr | Beschreibung |
+| Paper | Year | Description |
 |-------|------|--------------|
-| [Practical Bayesian Optimization of Machine Learning Algorithms](https://arxiv.org/abs/1206.2944) | 2012 | Dieses Paper beschreibt, wie Bayesianische Optimierung genutzt werden kann, um die Hyperparameter von Machine Learning Modellen effizient zu optimieren. Es stellt praktische Algorithmen und Implementierungen vor. |
-| [A Tutorial on Bayesian Optimization](https://arxiv.org/abs/1807.02811) | 2018 | Dieses Tutorial bietet eine umfassende Einführung in die Bayesianische Optimierung. Es deckt die theoretischen Grundlagen ab und zeigt, wie diese Methode zur Optimierung komplexer und teurer Funktionen angewendet werden kann. |
+| [Practical Bayesian Optimization of Machine Learning Algorithms](https://arxiv.org/abs/1206.2944) | 2012 | This paper describes how Bayesian optimization can be used to efficiently optimize the hyperparameters of machine learning models. It presents practical algorithms and implementations. |
+| [A Tutorial on Bayesian Optimization](https://arxiv.org/abs/1807.02811) | 2018 | This tutorial offers a comprehensive introduction to Bayesian optimization. It covers the theoretical foundations and demonstrates how this method can be applied to optimize complex and expensive functions. |
 
-## Beitrag leisten
+## Contributing
 
-Beiträge zu diesem Repository sind herzlich willkommen. Wenn du ein wichtiges Paper kennst, das hier aufgenommen werden sollte, erstelle bitte einen Pull-Request.
+Contributions to this repository are welcome. If you know of an important paper that should be included here, please submit a pull request.
+
 
 ## Lizenz
 
