@@ -8,7 +8,7 @@ This section contains a curated collection of learning paths on various importan
 
 ### 1. Transformers
 
-- [Transformers Learning Path](./transformers.md)
+- [Transformers Learning Path](./topics/transformers.md)
 - ...
 
 ## Categories
