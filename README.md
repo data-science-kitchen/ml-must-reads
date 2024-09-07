@@ -8,6 +8,7 @@ This section contains a curated collection of learning paths on various importan
 
 ### 1. Transformers
 
+- [General Machine Learning](./topics/general.md)
 - [Transformers Learning Path](./topics/transformers.md)
 - ...
 
