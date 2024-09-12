@@ -10,6 +10,8 @@ Machine Learning (ML) consists of many different fields and approaches, ranging 
 
 ## Learning Path
 
+t.b.d.
+
 ### Fundamentals
 
 | Title | Type | Description |
